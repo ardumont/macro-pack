@@ -8,5 +8,5 @@ A simple emacs-live pack to deal with emacs macro.
 in your .emacs-live.el, add this:
 
 ```el
-(live-add-packs '(macro-pack))
+(live-add-packs '("/path/to/macro-pack"))
 ```
