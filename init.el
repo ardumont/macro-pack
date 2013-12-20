@@ -1,5 +1,5 @@
 ;; To dynamically extend emacs via macros
-(defun save-macro (name)
+(defun macro-pack/save-last-macro (name)
   "save a macro. Take a name as argument and save the last
      defined macro under this name at the end of your .emacs"
   (interactive "SName of the last macro to save: ")
