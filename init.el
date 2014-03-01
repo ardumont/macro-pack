@@ -1,3 +1,9 @@
+;;; macro-pack.el --- Macro
+
+;;; Commentary:
+
+;;; Code:
+
 ;; To dynamically extend emacs via macros
 (defun macro-pack/save-last-macro (name)
   "save a macro. Take a name as argument and save the last
@@ -13,5 +19,4 @@
     (save-buffer)
     (switch-to-buffer nil)))
 
-;; Load bindings config
-(live-load-config-file "bindings.el")
+;;; macro-pack.el ends here
