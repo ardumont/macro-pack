@@ -1,13 +1,12 @@
-;;; macro-pack.el --- Macro
+;;; macro-pack.el --- Dynamically extend emacs via macros
 
 ;;; Commentary:
 
 ;;; Code:
 
-;; To dynamically extend emacs via macros
 (defun macro-pack/save-last-macro (name)
-  "save a macro. Take a name as argument and save the last
-     defined macro under this name at the end of your .emacs"
+  "Save a macro.
+Take a NAME as argument and save the last defined macro under this name at the end of your ~/.emacs.d/dump-macro.el"
   (interactive "SName of the last macro to save: ")
   (let ((macro-filename "~/.emacs.d/dump-macro.el"))
     (kmacro-name-last-macro name) ; use this name for the macro
