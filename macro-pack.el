@@ -19,4 +19,5 @@
     (save-buffer)
     (switch-to-buffer nil)))
 
+(provide 'macro-pack)
 ;;; macro-pack.el ends here
